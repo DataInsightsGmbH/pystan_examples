@@ -1,14 +1,8 @@
-import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import beta, binom
-import pystan
 import os
-
-
-
-# parameters for simulating data from a logistic regression model:
 
 BETA_PRIOR_ALPHA = 2
 BETA_PRIOR_BETA = 2
